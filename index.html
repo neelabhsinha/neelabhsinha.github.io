@@ -20,8 +20,8 @@
                     <ul class="nav__list">
                         <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
                         <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
                         <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
                         <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
                     </ul>
                 </div>
@@ -36,7 +36,7 @@
             <!--===== HOME =====-->
             <section class="home bd-grid" id="home">
                 <div class="home__data">
-                    <h1 class="home__title">Hi,<br>My name is <span class="home__title-color">Neelabh</span><br>Welcome to my webpage!</h1>
+                    <h1 class="home__title">Hi,<br>My name is <span class="home__title-color">Neelabh</span><br>Welcome to my web page!</h1>
 
                     <a href="https://drive.google.com/file/d/1bqKHtI0MvJLEt9w4tE7Wt7-Nhrv1lemF/view?usp=sharing" class="button" target="_blank">Résumé</a>
                     <br>
@@ -50,7 +50,7 @@
                 </div>
 
                 <div class="home__img">    
-                    <img src="assets/img/perfil.png" alt="">
+                    <img src="assets/img/perfil.png" alt="" style="margin-right: 10px;">
                 </div>
             </section>
 
@@ -65,10 +65,99 @@
                     
                     <div>
                         <h2 class="about__subtitle">Hello,</h2>
-                        <p class="about__text">I am Neelabh Sinha. Welcome to my happy place, a place that houses everything that has inspired and excited me through this amazing journey of learning. As a kid, I always perpetually fascinated by the extent of integration of technology into our lives, and its contribution to making it easier. This curiosity led me to pursue my career in engineering. <br>
+                        <p class="about__text">I am Neelabh Sinha. Welcome to my happy place, a place that houses everything that has inspired and excited me through this amazing journey of learning. As a kid, I always perpetually fascinated by the extent of integration of technology into our lives, and its contribution to making it easier. This curiosity led me to pursue my career in engineering.
                             After exploring many domains across different fields, I discovered my keen interest in Full-stack Development and Artificial Intelligence. So far, I have worked in various fields of AI like Computer Vision, NLP through various projects and also in various full-stack development projects.
-                            <br>Seeing such a wide range of applications leaves me curious to explore more, and embeds an aim in me to use technology to make human lives easy across various domains.</p>           
+                            Seeing such a wide range of applications leaves me curious to explore more, and embeds an aim in me to use technology to make human lives easy across various domains.</p>           
                     </div>                                   
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="projects">
+                <h2 class="section-title">Academic & Research Projects</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                        <a href='https://github.com/neelabhsinha/Drowsiness-Detection-in-Drivers-using-Deep-Learning' target="_blank" style="text-decoration:none;">
+                            <img src="assets/img/work1.jpg" alt="">
+                            <div class="project_content">
+                                <h3 style="margin-bottom: 2px; color: black;">Drowsiness Detection in Drivers & Industrial Workers</h3>
+                                <hr style="color: black;">
+                                <h6 style="margin-top:2px; margin-bottom: 2px; color: gray;">CSIR - CEERI, Pilani</h6>
+                                <h6 style="margin-top:2px; color: gray;">January 2020 - June 2020</h6>
+                                <p class="project__text">Implemented a machine learning model to detect drowsiness/fatigue in drivers by detecting physical features through CNN-based models and achieved an accuracy of 73.2% on the best model, close to the state-of-the-art models of fatifue identification.</p>
+                                <p style="font-size:8px; margin-bottom: 0px; margin-top: 10px; color: grey; text-align: center; margin-bottom: 0px;">Click for details</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="work__img">
+                        <a href='https://drive.google.com/file/d/1DT9ytdJlLeybbeYNMJA7NJGxeBEwPl0t/view' target="_blank" style="text-decoration:none;">
+                            <img src="assets/img/work3.jpg" alt="">
+                            <div class="project_content">
+                                <h3 style="margin-bottom: 2px; color: black;">Brain MRI Tumour Segmentation</h3>
+                                <hr style="color: black;">
+                                <h6 style="margin-top:2px; margin-bottom: 2px; color: gray;">BITS, Pilani</h6>
+                                <h6 style="margin-top:2px; color: gray;">January 2020 - June 2020</h6>
+                                <p class="project__text">Engineered two techniques for segmentation of tumor region from human brain MRI and then categorize different regions of the tumor, one using Deep Learning and another using traditional image segmentation algorithm. Further did a comparative study of both the techniques.</p>
+                                <p style="font-size:8px; margin-bottom: 0px; margin-top: 10px; color: grey; text-align: center;">Click for details</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="work__img">
+                        <a href='https://github.com/neelabhsinha/News-text-Classification-Based-on-Weighted-LSTMs' target="_blank" style="text-decoration:none;">
+                            <img src="assets/img/work2.jpg" alt="">
+                            <div class="project_content">
+                                <h3 style="margin-bottom: 2px; color: black;">News Text Classification using a Weighted RNN</h3>
+                                <hr style="color: black;">
+                                <h6 style="margin-top:2px; margin-bottom: 2px; color: gray;">BITS, Pilani</h6>
+                                <h6 style="margin-top:2px; color: gray;">October 2019 - November 2019</h6>
+                                <p class="project__text">Developed a novel machine learning based model to categorize news-text based on a novel technique of weighted RNN. Implemented various other baseline model to compare the performance and achieved best accuracy of 89.2%</p>
+                                <p style="font-size:8px; margin-bottom: 0px; margin-top: 10px; color: grey; text-align: center;">Click for details</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="work__img">
+                        <a href='https://github.com/neelabhsinha/Leakage-Detection-in-Smart-Water-Distribution-Systems' target="_blank" style="text-decoration:none;">
+                            <img src="assets/img/work4.jpg" alt="">
+                            <div class="project_content">
+                                <h3 style="margin-bottom: 2px; color: black;">Leakage Detection in Smart Water Distribution Systems</h3>
+                                <hr style="color: black;">
+                                <h6 style="margin-top:2px; margin-bottom: 2px; color: gray;">CSIR - CEERI, Pilani</h6>
+                                <h6 style="margin-top:2px; color: gray;">August 2019 - November 2019</h6>
+                                <p class="project__text">Conducted experiments on a testbed with appropriate sensors to study the behaviour of a leak in a water distribution system and collect relevant data, followed by training an ANN based model using it to detect leak in the network. Achieved a final accuracy of 92% on the model.</p>
+                                <p style="font-size:8px; margin-bottom: 0px; margin-top: 10px; color: grey; text-align: center;">Click for details</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="work__img">
+                        <a href='https://github.com/neelabhsinha/Design-of-Model-Predictive-RBFN-Controller-for-non-linear-plants' target="_blank" style="text-decoration:none;">
+                            <img src="assets/img/work5.jpg" alt="">
+                            <div class="project_content">
+                                <h3 style="margin-bottom: 2px; color: black;">Model Predictive RBFN controller for non-linear plants</h3>
+                                <hr style="color: black;">
+                                <h6 style="margin-top:2px; margin-bottom: 2px; color: gray;">BITS, Pilani</h6>
+                                <h6 style="margin-top:2px; color: gray;">May 2020 - July 2020</h6>
+                                <p class="project__text">Studied model predictive RBFN controller for non-linear plant control, implemented using U-model, and designed an RBFN-based controller for 1st degree and 4th degree non-linear plants. Minimized errors to 2.1 * 10<sup>-7</sup> for 1st degree plant and 6.1 * 10<sup>-5</sup> for 4th degree plant.</p>
+                                <p style="font-size:8px; margin-bottom: 0px; margin-top: 10px; color: grey; text-align: center;">Click for details</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="work__img">
+                        <a href='https://github.com/neelabhsinha/Private-Chat-Application-using-MongoDB-and-Socket.io' target="_blank" style="text-decoration:none;">
+                            <img src="assets/img/work6.jpg" alt="">
+                            <div class="project_content">
+                                <h3 style="margin-bottom: 2px; color: black;">Chat Application using MongoDB and Socket.io</h3>
+                                <hr style="color: black;">
+                                <h6 style="margin-top:2px; margin-bottom: 2px; color: gray;">Personal Project</h6>
+                                <h6 style="margin-top:2px; color: gray;">June 2020</h6>
+                                <p class="project__text">Implemented full-stack of a real-time, one-to-one private chat application using HTML, CSS, JavaScript, Express.js, Socket.io. Added functionality of storage and retriving of chat messages by incorporating MongoDB along with Socket.io to achieve full-fledged functionality. </p>
+                                <p style="font-size:8px; margin-bottom: 0px; margin-top: 10px; color: grey; text-align: center;">Click for details</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div style="width: 100%; padding:30px; border-radius: 2px; border: black; border-width: 2px;">
+                    <p style="font-size:12px; margin-bottom: 0px; margin-top: 0px; color: grey; text-align: center;">Other Projects can be found in my GitHub profile</p>
                 </div>
             </section>
 
@@ -179,32 +268,6 @@
                                 <span class="skills__percentage">85%</span>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </section>
-
-            <!--===== WORK =====-->
-            <section class="work section" id="work">
-                <h2 class="section-title">Work</h2>
-
-                <div class="work__container bd-grid">
-                    <div class="work__img">
-                        <img src="assets/img/work1.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work2.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work3.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work4.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work5.jpg" alt="">
-                    </div>
-                    <div class="work__img">
-                        <img src="assets/img/work6.jpg" alt="">
                     </div>
                 </div>
             </section>

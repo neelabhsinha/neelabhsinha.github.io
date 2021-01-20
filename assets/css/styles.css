@@ -325,6 +325,18 @@ img{
   transform: scale(1.1);
 }
 
+.project_content {
+  margin:5px
+}
+.project__text {
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 12px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  color: black;
+}
+
 /* ===== CONTACT =====*/
 .contact__input{
   width: 100%;
