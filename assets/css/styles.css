@@ -364,6 +364,22 @@ img{
 
 
 /* ===== SKILLS =====*/
+
+.competitive__container {
+  row-gap: 2rem;
+  text-align: center;
+}
+
+
+.competitive__element {
+  text-align: center;
+  align-items: center;
+  font-weight: var(--font-semi);
+  padding: .5rem 1rem;
+  margin-bottom: var(--mb-4);
+  border-radius: .5rem;
+  box-shadow: 0 4px 25px rgba(14,36,49,.15);
+}
 .skills__container{
   row-gap: 2rem;
   text-align: center;
@@ -403,20 +419,51 @@ img{
   border-radius: .5rem;
   z-index: var(--z-back);
 }
-.skills__html{
+.skills__java{
   width: 95%;
 }
-.skills__css{
+.skills__spring_boot{
+  width: 90%;
+}
+.skills__nodejs {
+  width: 80%;
+}
+.skills__angular{
+  width: 95%;
+}
+.skills__db{
   width: 85%;
 }
 .skills__js{
-  width: 65%;
-}
-.skills__ux{
   width: 85%;
+}
+.skills__html{
+  width: 90%;
+}
+
+.skills__sql {
+  width: 90%;
 }
 .skills__img{
   border-radius: .5rem;
+}
+.skills__tensorflow {
+  width: 95%;
+}
+.skills__sklearn{
+  width: 85%;
+}
+.skills__opencv{
+  width: 75%;
+}
+.skills__pytorch{
+  width: 65%;
+}
+.skills__python {
+  width: 95%;
+}
+.skills__pandas{
+  width: 90%;
 }
 
 /* ===== WORK =====*/
