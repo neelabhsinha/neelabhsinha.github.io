@@ -8,8 +8,8 @@
 
 /*===== Colores =====*/
 :root{
-  --first-color: #1e56f1;
-  --second-color: #0b1b24;
+  --first-color: #50cedf;
+  --second-color: #194761;
 }
 
 /*===== Fuente y tipografia =====*/
@@ -274,7 +274,7 @@ img{
 .description__left {
   text-align: left;
   font-size: 8px;
-  color:white;
+  color:black;
 }
 
 .timeline ul {
@@ -283,13 +283,14 @@ img{
 .timeline ul li {
   padding: 20px;
   background-color: var(--first-color);
-  color: white;
+  border-style: solid;
+  color: black;
   border-radius: 10px;
   margin-bottom: 20px;
 }
 .timeline ul li:last-child {
   margin-bottom: 0;
-}
+} 
 .timeline-content h1 {
   font-weight: 500;
   font-size: 25px;
