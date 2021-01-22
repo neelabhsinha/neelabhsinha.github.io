@@ -243,6 +243,7 @@ img{
 }
 .about__img{
   justify-self: center;
+  vertical-align: center;
 }
 .about__img img{
   width: 200px;
@@ -308,6 +309,9 @@ img{
   margin-bottom: 10px;
   letter-spacing: 2px;
 }
+.contact__container{
+  justify-items: center;
+}
 @media only screen and (min-width: 768px) {
   .timeline:before {
     content: "";
@@ -363,7 +367,12 @@ img{
 }
 
 /* EDUCATION */
-
+.education__box {
+  box-shadow: 0 4px 25px rgba(14,36,49,.15);
+  border-radius: .5rem;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
 
 /* ===== SKILLS =====*/
 
@@ -600,7 +609,7 @@ img{
     text-align: initial;
   }
   .about__img img{
-    width: 300px;
+    width: 400px;
   }
   .work__container{
     grid-template-columns: repeat(3, 1fr);
@@ -611,6 +620,12 @@ img{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1,1fr);
     column-gap: 2rem;
+  }
+
+  .education__box {
+    box-shadow: 0 4px 25px rgba(14,36,49,.15);
+    border-radius: .5rem;
+    overflow: hidden;
   }
   
   .contact__form{
