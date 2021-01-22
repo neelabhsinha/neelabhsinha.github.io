@@ -6,13 +6,13 @@
   --font-semi: 600;
 }
 
-/*===== Colores =====*/
+/*===== Colours =====*/
 :root{
   --first-color: #50cedf;
   --second-color: #194761;
 }
 
-/*===== Fuente y tipografia =====*/
+/*===== Font =====*/
 :root{
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 1.8rem;
@@ -21,13 +21,13 @@
 }
 @media screen and (min-width: 768px){
   :root{
-    --big-font-size: 2.5rem;
+    --big-font-size: 2.3rem;
     --h2-font-size: 1.8rem;
     --normal-font-size: 1rem;
   }
 }
 
-/*===== Margenes =====*/
+/*===== Margins =====*/
 :root{
   --mb-1: 0.5rem;
   --mb-2: 1rem;
@@ -277,7 +277,6 @@ img{
   font-size: 8px;
   color:black;
 }
-
 .timeline ul {
   list-style: none;
 }
@@ -380,8 +379,6 @@ img{
   row-gap: 2rem;
   text-align: center;
 }
-
-
 .competitive__element {
   text-align: center;
   align-items: center;
@@ -477,7 +474,7 @@ img{
   width: 90%;
 }
 
-/* ===== WORK =====*/
+/* ===== PROJECT =====*/
 .work__container{
   row-gap: 2rem;
 }
@@ -493,7 +490,6 @@ img{
 .work__img img:hover{
   transform: scale(1.1);
 }
-
 .project_content {
   margin:5px
 }
