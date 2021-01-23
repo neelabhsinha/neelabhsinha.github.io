@@ -37,32 +37,28 @@ const sr = ScrollReveal({
 sr.reveal('.home__title',{}); 
 sr.reveal('.button',{delay: 200}); 
 sr.reveal('.home__img',{delay: 200}); 
-sr.reveal('.home__social-icon',{ interval: 200}); 
+sr.reveal('.home__social-icon',{ interval: 400}); 
 
 /*SCROLL EXPERIENCE*/
 sr.reveal('.container',{}); 
-sr.reveal('.timeline',{delay: 200}); 
-sr.reveal('.timeline-content',{delay: 300}); 
+sr.reveal('.timeline',{delay: 100}); 
+sr.reveal('.timeline-content',{delay: 200}); 
 
 /*SCROLL ABOUT*/
 sr.reveal('.about__img',{}); 
-sr.reveal('.about__subtitle',{delay: 300}); 
-sr.reveal('.about__text',{delay: 300}); 
+sr.reveal('.about__subtitle',{delay: 200}); 
+sr.reveal('.about__text',{delay: 200}); 
 
 /*SCROLL SKILLS*/
 sr.reveal('.skills__subtitle',{}); 
 sr.reveal('.skills__text',{}); 
-sr.reveal('.skills__data',{interval: 50}); 
-sr.reveal('.competitive__element',{interval: 100}); 
-sr.reveal('.skills__img',{delay: 100});
+sr.reveal('.skills__data',{interval: 100}); 
+sr.reveal('.competitive__element',{interval: 200}); 
+sr.reveal('.skills__img',{delay: 200});
 
 /*SCROLL WORK*/
-sr.reveal('.work__img',{interval: 100}); 
-sr.reveal('.project_content',{interval: 100}); 
+sr.reveal('.work__img',{interval: 200}); 
+sr.reveal('.project_content',{interval: 200}); 
 
 /*SCROLL CONTACT*/
-sr.reveal('.contact__container',{interval: 100}); 
-
-
-
-
+sr.reveal('.contact__container',{interval: 200}); 
