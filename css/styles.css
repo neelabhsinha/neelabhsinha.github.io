@@ -296,17 +296,20 @@ img{
   font-size: 25px;
   line-height: 30px;
   margin-bottom: 10px;
+  color: var(--second-color);
 }
 .timeline-content p {
   font-size: 16px;
   line-height: 30px;
   font-weight: 300;
+  color: var(--second-color);
 }
 .timeline-content .date {
   font-size: 12px;
   font-weight: 300;
   margin-bottom: 10px;
   letter-spacing: 2px;
+  color: var(--second-color);
 }
 .contact__container{
   justify-items: center;
@@ -359,6 +362,7 @@ img{
   .timeline-content .date {
     position: absolute;
     top: -30px;
+    color: var(--second-color);
   }
   .timeline ul li:hover::before {
     background-color: var(--first-color);
@@ -371,6 +375,15 @@ img{
   border-radius: .5rem;
   overflow: hidden;
   margin-bottom: 10px;
+}
+
+/*EXPERIENCE*/
+.experience__text {
+  margin:2px;
+  color: var(--second-color);
+}
+.experience__line {
+  color: var(--second-color);
 }
 
 /* ===== SKILLS =====*/
@@ -491,7 +504,8 @@ img{
   transform: scale(1.1);
 }
 .project_content {
-  margin:5px
+  margin:5px;
+  color: var(--second-color);
 }
 .project__text {
   text-align: justify;
@@ -499,7 +513,7 @@ img{
   font-size: 12px;
   padding-right: 5px;
   padding-bottom: 10px;
-  color: black;
+  color: var(--second-color);
 }
 
 /* ===== CONTACT =====*/
