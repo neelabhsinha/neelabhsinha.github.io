@@ -3,7 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/light.css">
+        <link rel="stylesheet" href="css/toggle.css">
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
         <title>Neelabh Sinha</title>
     </head>
@@ -23,10 +24,17 @@
                         <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
                         <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
                         <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                        <!-- <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li> -->
+                        <li>
+                            <div class="toggle">
+                                <label class="switch">
+                                    <input type="checkbox" id="myCheckbox" onchange="toggleTheme()">
+                                    <span class="slider round"></span>
+                                </label>
+                            </div>
+                        </li>
                     </ul>
                 </div>
-
                 <div class="nav__toggle" id="nav-toggle">
                     <i class='bx bx-menu'></i>
                 </div>
@@ -42,6 +50,9 @@
                     <a href="https://drive.google.com/file/d/1bqKHtI0MvJLEt9w4tE7Wt7-Nhrv1lemF/view?usp=sharing" class="button" target="_blank">Résumé</a>
                     <br>
                     <a href="https://drive.google.com/file/d/1DA2jXDInpLGGd10W_bJ391YVGgFOBfFx/view?usp=sharing" class="button" target="_blank" style="margin-top: 15px;">Curriculum Vitaé</a>
+                    <br>
+                    
+                
                 </div>
 
                 <div class="home__social">
@@ -49,7 +60,6 @@
                     <a href="https://www.facebook.com/neelabhsinha19" class="home__social-icon" target="_blank"><i class='bx bxl-facebook' ></i></a>
                     <a href="https://github.com/neelabhsinha" class="home__social-icon" target="_blank"><i class='bx bxl-github' ></i></a>
                 </div>
-
                 <div class="home__img">    
                     <img src="assets/img/profile.png" alt="profile.png">
                 </div>
@@ -116,11 +126,11 @@
                       <ul>
                         <li>
                           <div class="timeline-content">
-                            <h2 style="margin:2px;">Research Intern</h2>
-                            <h4 style="margin:2px;">INRIA, Sophia Antipolis, France</h4>
+                            <h2 class="experience__text">Research Intern</h2>
+                            <h4 class="experience__text">INRIA, Sophia Antipolis, France</h4>
                             <hr>
-                            <h5 style="margin:2px;">February 2021 - Present</h5>
-                            <p class="description__left">Working to develop a novel AI based technique for human activity recognition using spatiotemporal features to accurately classify activities of daily living.</p>
+                            <h5 class="experience__text">February 2021 - Present</h5>
+                            <p class="description__left experience__text">Working to develop a novel AI based technique for human activity recognition using spatiotemporal features to accurately classify activities of daily living.</p>
                           </div>
                         </li>
                         <li>
@@ -151,11 +161,11 @@
                         </li>
                         <li>
                             <div class="timeline-content">
-                                <h2 style="margin:2px;">Summer Intern</h2>
-                                <h4 style="margin:2px;">Rourkela Steel Plant, SAIL, India</h4>
+                                <h2 class="experience__text">Summer Intern</h2>
+                                <h4 class="experience__text">Rourkela Steel Plant, SAIL, India</h4>
                                 <hr>
-                                <h5 style="margin:2px;">May 2018 - July 2018</h5>
-                                <p class="description__left">
+                                <h5 class="experience__text">May 2018 - July 2018</h5>
+                                <p class="description__left experience__text">
                                     Worked in power distribution department to use SCADA system to collect data and perform a data-driven analysis of various performance indices and safety limits of power distribution across various divisions of the plant and perform relevant control.
                                 </p>
                             </div>
@@ -483,6 +493,7 @@
         </main>
 
         <!--FOOTER-->
+        <hr>
         <footer class="footer">
             <p class="footer__title">Neelabh Sinha</p>
             <div class="footer__social">
@@ -490,7 +501,7 @@
                 <a href="https://www.instagram.com/neelabhsinha" class="footer__icon" target="_blank"><i class='bx bxl-instagram' ></i></a>
                 <a href="https://www.twitter.com/chillichicken_" class="footer__icon" target="_blank"><i class='bx bxl-twitter' ></i></a>
             </div>
-            <p>&#169; 2021 copyright. All rights reserved.</p>
+            <p class="copyright">&#169; 2021 copyright. All rights reserved.</p>
         </footer>
 
 
@@ -498,15 +509,16 @@
         <script src="https://unpkg.com/scrollreveal"></script>
 
         <!--MAIN JS-->
+        <script src="js/common.js"></script>
         <script>
             if (screen && screen.width >=768) {
-                document.write('<script src="js/main-desktop.js"><\/script>');
+                document.write('<script src="js/desktop.js"><\/script>');
             }
         </script>
             
         <script>
             if (screen && screen.width < 768) {
-                document.write('<script src="js/main-mobile.js"><\/script>');
+                document.write('<script src="js/mobile.js"><\/script>');
             }
         </script>
     </body>

@@ -9,8 +9,10 @@
 /*===== Colours =====*/
 :root{
   --first-color: #50cedf;
+  /* #194761 */
   --second-color: #194761;
 }
+
 
 /*===== Font =====*/
 :root{
@@ -18,6 +20,7 @@
   --big-font-size: 1.8rem;
   --h2-font-size: 1.25rem;
   --normal-font-size: 0.938rem;
+  
 }
 @media screen and (min-width: 768px){
   :root{
