@@ -1,7 +1,7 @@
 /*===== SCROLL REVEAL ANIMATION =====*/
 const sr = ScrollReveal({
     origin: 'top',
-    distance: '10px',
+    distance: '15px',
     duration: 1000,
     reset: false
 });

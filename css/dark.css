@@ -259,6 +259,9 @@ img{
   text-align: justify;
   text-justify: inter-word;
 }
+.hyperlink {
+  color: white;
+}
 
 /* EXPERIENCE */
 .container {
