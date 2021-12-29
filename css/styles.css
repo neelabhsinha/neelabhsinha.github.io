@@ -11,9 +11,44 @@
   --first-color: #50cedf;
   /* #194761 */
   --second-color: #194761;
+  --bkg-color: white;
+  --footer-bkg-color: var(--first-color);
 }
 
+.dark_mode {
+  --first-color: #50cedf;
+  /* #194761 */
+  --second-color: #ffffff;
+  --bkg-color: black;
+  --footer-bkg-color: var(--bkg-color);
+}
 
+* {
+  background-color: var(--bkg-color);
+}
+
+/*====Dark Mode ====*/
+.dark_mode_button {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  text-align: center;
+  margin-left: 40px;
+  align-self: center;
+  float: right;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  text-align: center;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: .3s;
+  background-color: var(--first-color);
+}
+
+.button_icon {
+  background: transparent;
+  color: var(--second-color);
+}
 /*===== Font =====*/
 :root{
   --body-font: 'Poppins', sans-serif;
@@ -119,7 +154,7 @@ img{
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: #fff;
+  background-color: var(--bkg-color);
   box-shadow: 0 1px 4px rgba(146,161,176,.15);
 }
 
@@ -268,7 +303,6 @@ img{
   align-items: center;
   justify-content: center;
   padding-top: 0;
-  background-color:white;
 }
 .timeline {
   width: 80%;
@@ -288,8 +322,8 @@ img{
 }
 .timeline ul li {
   padding: 20px;
-  background-color: var(--first-color);
   border-style: solid;
+  border-color: var(--first-color);
   color: black;
   border-radius: 10px;
   margin-bottom: 20px;
@@ -377,8 +411,10 @@ img{
 
 /* EDUCATION */
 .education__box {
-  box-shadow: 0 4px 25px rgba(14,36,49,.15);
-  border-radius: .5rem;
+  box-shadow: 0 4px 25px var(--second-color);
+  border-style: solid;
+  border-color: var(--first-color);
+  border-radius: 10px;
   overflow: hidden;
   margin-bottom: 10px;
 }
@@ -499,7 +535,9 @@ img{
 }
 .work__img{
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
-  border-radius: .5rem;
+  border-color: var(--first-color);
+  border-style: solid;
+  border-radius: 10px;
   overflow: hidden;
 }
 .work__img img{
@@ -544,8 +582,7 @@ img{
 
 /* ===== FOOTER =====*/
 .footer{
-  background-color: var(--second-color);
-  color: #fff;
+  background-color: var(--bkg-color);
   text-align: center;
   font-weight: var(--font-semi);
   padding: 2rem 0;
@@ -559,8 +596,7 @@ img{
 }
 .footer__icon{
   font-size: 1.5rem;
-  color: #fff;
-  margin: 0 var(--mb-2)
+  color: var(--second-color);
 }
 
 /* ===== MEDIA QUERIES=====*/

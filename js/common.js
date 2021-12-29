@@ -1,18 +1,12 @@
 /*TOGGLE LIGHT AND DARK THEMES */
-function toggleTheme() { 
-    // Obtains an array of all <link> 
-    // elements. 
-    // Select your element using indexing. 
-    var theme = document.getElementsByTagName('link')[0]; 
 
-    // Change the value of href attribute  
-    // to change the css sheet. 
-    if (theme.getAttribute('href') == 'css/dark.css') { 
-        theme.setAttribute('href', 'css/light.css'); 
-    } else { 
-        theme.setAttribute('href', 'css/dark.css'); 
-    } 
-}
+function enabledark() {
+    var element = document.body;
+    var head = document.head;
+    element.classList.toggle("dark_mode");
+    head.classList.toggle("dark_mode");
+ }
+
 /*===== MENU SHOW =====*/ 
 const showMenu = (toggleId, navId) =>{
     const toggle = document.getElementById(toggleId),
