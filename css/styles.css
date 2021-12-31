@@ -254,7 +254,7 @@ img{
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 250px;
+  width: 50%;
   margin-right: 13px;
 }
 
@@ -411,7 +411,6 @@ img{
 
 /* EDUCATION */
 .education__box {
-  box-shadow: 0 4px 25px var(--second-color);
   border-style: solid;
   border-color: var(--first-color);
   border-radius: 10px;
@@ -441,7 +440,6 @@ img{
   padding: .5rem 1rem;
   margin-bottom: var(--mb-4);
   border-radius: .5rem;
-  box-shadow: 0 4px 25px rgba(14,36,49,.15);
 }
 .skills__container{
   row-gap: 2rem;
@@ -462,7 +460,6 @@ img{
   padding: .5rem 1rem;
   margin-bottom: var(--mb-4);
   border-radius: .5rem;
-  box-shadow: 0 4px 25px rgba(14,36,49,.15);
 }
 .skills__icon{
   font-size: 2rem;
@@ -534,7 +531,6 @@ img{
   row-gap: 2rem;
 }
 .work__img{
-  box-shadow: 0 4px 25px rgba(14,36,49,.15);
   border-color: var(--first-color);
   border-style: solid;
   border-radius: 10px;
@@ -657,7 +653,8 @@ img{
     margin-right: var(--mb-4);
   }
   .home__img{
-    width: 457px;
+    width: 35%;
+    height: auto;
     bottom: 15%;
   }
 
@@ -681,7 +678,6 @@ img{
   }
 
   .education__box {
-    box-shadow: 0 4px 25px rgba(14,36,49,.15);
     border-radius: .5rem;
     overflow: hidden;
   }
