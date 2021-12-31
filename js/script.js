@@ -2,11 +2,16 @@
 
 let screen_width = screen.width;
 
+reset_scroll_reveal = true;
+if(screen_width<=768) {
+    reset_scroll_reveal = false;
+}
+
 const sr = ScrollReveal({
     origin: 'top',
     distance: '50px',
     duration: 2000,
-    reset: true
+    reset: reset_scroll_reveal
 });
 
 /*SCROLL HOME*/
