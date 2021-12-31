@@ -250,9 +250,9 @@ img{
 }
 .home__img{
   position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 56%;
+  right: 5px;
+  bottom: 10px;
+  width: 54%;
   margin-right: 13px;
 }
 
