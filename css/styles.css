@@ -416,6 +416,15 @@ img{
   margin-bottom: 10px;
 }
 
+/* PUBLICATION */
+.publication__box {
+  border-style: solid;
+  border-color: var(--first-color);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
 /*EXPERIENCE*/
 .experience__text {
   margin:2px;
@@ -669,7 +678,7 @@ img{
   }
   .work__container{
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(1,1fr);
+    grid-template-rows: repeat(2,1fr);
     column-gap: 2rem;
   }
   .education__container{
@@ -679,6 +688,16 @@ img{
   }
 
   .education__box {
+    border-radius: .5rem;
+    overflow: hidden;
+  }
+  .publication__container{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1,1fr);
+    column-gap: 2rem;
+  }
+
+  .publication__box {
     border-radius: .5rem;
     overflow: hidden;
   }

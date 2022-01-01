@@ -46,7 +46,7 @@ sr.reveal('.contact__container',{interval: 200});
 
 /*TOGGLE LIGHT AND DARK THEMES */
 
-function enabledark() {
+function enableDark() {
     var element = document.body;
     var head = document.head;
     element.classList.toggle("dark_mode");
