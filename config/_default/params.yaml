@@ -5,8 +5,8 @@
 
 # Appearance
 appearance:
-  mode: system
-  color: emerald
+  mode: light
+  color: cyan
 
 # SEO
 marketing:
@@ -31,20 +31,21 @@ header:
   navbar:
     enable: true
     blox: "navbar"
+    align: "right"
     fixed_to_top: true
     show_search: true
     show_theme_chooser: true
     logo:
-      text: "Your Name"
+      text: "Neelabh Sinha"
 
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© Neelabh Sinha. All rights reserved.'
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
-      share_alike: true
+      share_alike: false
       allow_commercial: false
 
 # Localization
