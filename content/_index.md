@@ -45,6 +45,14 @@ sections:
       username: admin
     design:
       show_skill_percentage: false
+  - block: resume-awards
+    id: certifications
+    content:
+      title: Technical Certifications
+      username: admin
+    design:
+      show_skill_percentage: false
+      view: list
   # - block: collection
   #   id: talks
   #   content:

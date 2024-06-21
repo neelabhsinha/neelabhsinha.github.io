@@ -1,7 +1,6 @@
 {
   "htmlElements": {
     "tags": [
-      "?xml",
       "a",
       "article",
       "aside",
@@ -183,7 +182,6 @@
       "h-100",
       "h-24",
       "h-28",
-      "h-3",
       "h-4",
       "h-48",
       "h-5",
@@ -214,7 +212,6 @@
       "hover:text-neutral-300",
       "hover:text-primary",
       "hover:text-primary-700",
-      "hover:underline",
       "inline-block",
       "inline-flex",
       "items-center",
@@ -294,7 +291,6 @@
       "mr-4",
       "mr-6",
       "ms-2",
-      "ms-2.5",
       "ms-6",
       "mt-1",
       "mt-10",
@@ -385,7 +381,6 @@
       "rtl:-ml-4",
       "rtl:-rotate-180",
       "rtl:hidden",
-      "rtl:rotate-[270deg]",
       "rtl:text-left",
       "section-subheading",
       "shadow",
@@ -401,8 +396,6 @@
       "space-x-3",
       "space-y-1",
       "space-y-3",
-      "st0",
-      "st1",
       "sticky",
       "text-1xl",
       "text-2xl",
@@ -453,7 +446,6 @@
       "w-100",
       "w-24",
       "w-28",
-      "w-3",
       "w-4",
       "w-5",
       "w-6",
@@ -466,8 +458,8 @@
       "z-30"
     ],
     "ids": [
-      "Layer_1",
       "about-me",
+      "certifications",
       "deviconAzure0",
       "deviconAzure1",
       "deviconAzure2",

@@ -16,6 +16,9 @@ main:
   - name: Skills
     url: /#skills
     weight: 30
+  - name: Certifications
+    url: /#certifications
+    weight: 35
   # - name: Papers
   #   url: /#papers
   # #   weight: 11
