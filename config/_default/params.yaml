@@ -7,7 +7,7 @@
 appearance:
   mode: light
   color: cyan
-  font_size: xl
+  font: roboto
 
 # SEO
 marketing:

@@ -22,6 +22,7 @@ sections:
     id: publication
     content:
       title: Publications
+      count: 5
       text: ""
       filters:
         folders:
@@ -38,6 +39,18 @@ sections:
       date_format: 'January 2006'
       # Education or Experience section first?
       is_education_first: false
+  - block: collection
+    id: projects
+    content:
+      title: Projects
+      filters:
+        folders:
+          - project
+      count: 6
+    design:
+      view: article-grid
+      fill_image: false
+      columns: 3
   - block: resume-skills
     id: skills
     content:
@@ -52,7 +65,8 @@ sections:
       username: admin
     design:
       show_skill_percentage: false
-      view: list
+      view: compact
+      # columns: 3
   # - block: collection
   #   id: talks
   #   content:
