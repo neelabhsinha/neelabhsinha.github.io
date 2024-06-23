@@ -37,10 +37,10 @@ profiles:
   #   url: https://twitter.com/GetResearchDev
   # - icon: brands/instagram
   #   url: https://www.instagram.com/
-  - icon: brands/github
-    url: https://github.com/neelabh-sinha
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/neelabh-sinha/
+  - icon: brands/github
+    url: https://github.com/neelabhsinha
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=DJTCefIAAAAJ
   # - icon: academicons/orcid
@@ -75,17 +75,7 @@ education:
       CGPA: 8.44/10.0
       
       Relevant Courses: Object Oriented Programming, Operating Systems, Neural Networks and Fuzzy Logic, Pattern Recognition, Microprocessor Programming and Interfacing, Computer Programming
-  # - area: BSc Artificial Intelligence
-  #   institution: Massachusetts Institute of Technology
-  #   date_start: 2016-01-01
-  #   date_end: 2020-12-31
-  #   summary: |
-  #     GPA: 3.4/4.0
       
-  #     Courses included:
-  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
   - position: Software Engineer
     company_name: Wells Fargo, Hyderabad, India
