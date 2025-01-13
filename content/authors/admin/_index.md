@@ -61,9 +61,9 @@ education:
     date_start: 2023-08-23
     date_end: 2025-05-01
     summary: |
-      GPA: 4.0/4.0
+      GPA: 3.8/4.0
       
-      Courses: Graduate Algorithms, Machine Learning, Deep Learning, Advanced Natural Language Processing
+      Courses: Graduate Algorithms, Machine Learning, Deep Learning, Advanced Natural Language Processing, Computer Vision, Systems for Machine Learning, Enterprise Cybersecurity Management
     # button:
     #   text: 'Read Thesis'
     #   url: 'https://example.com'
