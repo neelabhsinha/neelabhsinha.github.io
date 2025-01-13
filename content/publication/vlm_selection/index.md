@@ -1,5 +1,5 @@
 ---
-title: "Evaluating Open Language Models Across Task Types, Application Domains, and Reasoning Types: An In-Depth Experimental Analysis"
+title: "Guiding Vision-Language Model Selection for Visual Question-Answering Across Tasks, Domains, and Knowledge Types"
 authors:
 - admin
 - Vinija Jain
