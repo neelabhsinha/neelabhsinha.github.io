@@ -20,12 +20,12 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Graduate Student
+role: Machine Learning Engineer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Georgia Institute of Technology
-    url: https://www.gatech.edu/about
+  - name: Nutanix, Inc.
+    url: https://www.nutanix.com/company
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -45,12 +45,13 @@ profiles:
     url: https://scholar.google.com/citations?user=DJTCefIAAAAJ
   # - icon: academicons/orcid
   #   url: https://orcid.org/
-  - icon: academicons/cv
-    url: https://drive.google.com/file/d/1DA2jXDInpLGGd10W_bJ391YVGgFOBfFx/view?usp=share_link
   - icon: hero/document
-    url: https://drive.google.com/file/d/1bqKHtI0MvJLEt9w4tE7Wt7-Nhrv1lemF/view?usp=share_link
+    url: https://drive.google.com/file/d/1DA2jXDInpLGGd10W_bJ391YVGgFOBfFx/view?usp=share_link
+  # - icon: hero/document
+  #   url: https://drive.google.com/file/d/1bqKHtI0MvJLEt9w4tE7Wt7-Nhrv1lemF/view?usp=share_link
 
 interests:
+  - Generative AI
   - Natural Language Processing
   - Computer Vision
   - Back-end Development
@@ -77,6 +78,14 @@ education:
       Relevant Courses: Object Oriented Programming, Operating Systems, Neural Networks and Fuzzy Logic, Pattern Recognition, Microprocessor Programming and Interfacing, Computer Programming
       
 work:
+  - position: Member of Technical Staff 2
+    company_name: Nutanix, Inc., San Jose, CA, USA
+    company_url: 'https://www.nutanix.com/company'
+    company_logo: 'https://download.logo.wine/logo/Nutanix/Nutanix-Logo.wine.png'
+    date_start: 2025-06-23
+    date_end: Present
+    summary: |
+      - Developing an AI code-review agent that scans and provides reviews for 200+ enterprise-level pull requests weekly
   - position: Software Engineer
     company_name: Wells Fargo, Hyderabad, India
     company_url: 'https://www.wellsfargo.com/about/'
@@ -122,115 +131,111 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Languages
+  - name: Programming Languages
+    icon_group: true
     items:
       - name: Python
-        description: ''
         percent: 100
         icon: devicon/python
       - name: Java
-        description: ''
         percent: 100
         icon: devicon/java
       - name: C++
-        description: ''
         percent: 40
         icon: devicon/cplusplus
       - name: JavaScript
-        description: ''
         percent: 40
-        icon: circle-stack
+        icon: devicon/javascript
       - name: HTML, CSS
-        description: ''
         percent: 40
         icon: devicon/html5
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: devicon/azuresqldatabase
-  - name: ML Libraries
+  - name: Machine Learning & AI Libraries
     color: '#eeac02'
     color_border: '#f0bf23'
+    icon_group: true
     items:
-      - name: Pytorch
-        description: ''
+      - name: PyTorch
         percent: 60
         icon: devicon/pytorch
-      - name: Tensorflow
-        description: ''
+      - name: TensorFlow
         percent: 100
         icon: devicon/tensorflow
       - name: Scikit-Learn
-        description: ''
         percent: 80
         icon: devicon/scikitlearn
-      - name: Huggingface
-        description: ''
+      - name: Hugging Face
         percent: 80
+        icon: devicon/pytorch
       - name: OpenCV
-        description: ''
         percent: 80
         icon: devicon/opencv
       - name: Pandas
-        description: ''
         percent: 80
         icon: devicon/pandas
-  - name: Development
-    color: '#eeac02'
-    color_border: '#f0bf23'
+  - name: Development Frameworks & Tools
+    color: '#34a853'
+    color_border: '#5ac36b'
+    icon_group: true
     items:
+      - name: FastAPI
+        percent: 80
+        icon: devicon/fastapi
       - name: Spring Boot
-        description: ''
         percent: 60
         icon: devicon/spring
-      - name: Kafka
-        description: ''
+      - name: Apache Kafka
         percent: 100
         icon: devicon/apachekafka
       - name: Node.js
-        description: ''
         percent: 80
         icon: devicon/nodejs
       - name: Angular
-        description: ''
         percent: 80
-        icon: devicon/angular
+        icon: devicon/angularjs
       - name: Ionic
-        description: ''
         percent: 80
         icon: devicon/ionic
       - name: React
-        description: ''
         percent: 80
         icon: devicon/react
-  - name: Others
-    color: '#eeac02'
-    color_border: '#f0bf23'
+  - name: Databases & Search
+    color: '#f4511e'
+    color_border: '#ff7043'
+    icon_group: true
     items:
-      - name: Azure Cloud
-        description: ''
-        percent: 60
-        icon: devicon/azure
-      - name: Git
-        description: ''
-        percent: 100
-        icon: devicon/git
-      - name: Jenkins
-        description: ''
-        percent: 80
-        icon: devicon/jenkins
-      - name: UDeploy
-        description: ''
-        percent: 80
-        icon: devicon/azuredevops
-      - name: Elastic
-        description: ''
-        percent: 80
-        icon: devicon/elasticsearch
       - name: MongoDB
-        description: ''
         percent: 80
         icon: devicon/mongodb
+      - name: Elasticsearch
+        percent: 80
+        icon: devicon/elasticsearch
+      - name: PostgreSQL
+        percent: 50
+        icon: devicon/postgresql
+  - name: Cloud & DevOps
+    color: '#4285f4'
+    color_border: '#79aefc'
+    icon_group: true
+    items:
+      - name: Microsoft Azure
+        percent: 60
+        icon: devicon/azure
+      - name: AWS
+        percent: 50
+        icon: devicon/amazonwebservices
+      - name: Docker
+        percent: 80
+        icon: devicon/docker
+      - name: Kubernetes
+        percent: 50
+        icon: devicon/kubernetes
+      - name: Jenkins
+        percent: 80
+        icon: devicon/jenkins
+      - name: Git
+        percent: 100
+        icon: devicon/git
+
 
 languages:
   - name: English
@@ -262,4 +267,4 @@ awards:
 
 ## About Me
 
-I am an MS, Computer Science student at Georgia Institute of Technology, expected to graduate in Spring 2025. My current research focuses on applications of Large Language Models in the field of Natural Language Processing, advised by [Prof. Alan Ritter](https://aritter.github.io). Previously, I have worked as a Software Engineer at Wells Fargo for 2 years, contributing to back-end development of an enterprise business process management application. I've also spent six months researching on Eye Gaze Estimation under [Dr. François Brémond](http://www-sop.inria.fr/members/Francois.Bremond/) as a Research Intern. Apart from my academics, my time goes into following Cricket and Formula Racing. 
+I am an AI Engineer by profession and hobby. Currently, I am working as a Member of Technical Staff at Nutanix, where I develop LLM-powered AI agents that enhance software development workflows. I hold a Master’s degree in Computer Science with a specialization in Machine Learning from Georgia Tech, where I was advised by [Prof. Alan Ritter](https://aritter.github.io) on innovative approaches to improving text summarization with LLMs. I also did multiple other projects on inference optimization and application of LLMs and VLMs, and was Teaching Assistant for courses like Natural Language Processing and Deep Learning. In the past, I also worked as a software engineer at Wells Fargo, building scalable backend systems and event streaming services for enterprise applications. My research background also includes deep learning techniques for multimodal eye gaze estimation at INRIA under [Dr. François Brémond](http://www-sop.inria.fr/members/Francois.Bremond/), and machine learning solutions for financial expenses forecasting at Thomson Reuters. Outside of technology, I enjoy Cricket and Formula Racing, balancing my technical interests with the thrill of sports.
