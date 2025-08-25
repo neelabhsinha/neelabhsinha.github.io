@@ -5,11 +5,11 @@ authors:
 - Vinija Jain
 - Aman Chadha
 
-date: "2024-12-12T00:00:00Z"
+date: "2025-01-19T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2024-12-12T00:00:00Z"
+publishDate: "2025-01-19T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -33,7 +33,7 @@ featured: true
 # links:
 # - name: Custom Link
 #   url: http://example.org
-url_pdf: https://arxiv.org/abs/2409.09269
+url_pdf: https://aclanthology.org/2025.evalmg-1.7/
 url_code: 'https://github.com/neelabhsinha/vlm-selection-tasks-domains-knowledge-type'
 # url_dataset: '#'
 # url_poster: '#'
