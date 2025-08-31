@@ -45,7 +45,7 @@ jobs:
           head -10 dist/index.html
         
       - name: ⚙️ Setup Pages
-        uses: actions/configure-pages@v4
+        uses: actions/configure-pages@v5
         
       - name: 📤 Upload build artifacts
         uses: actions/upload-pages-artifact@v3
