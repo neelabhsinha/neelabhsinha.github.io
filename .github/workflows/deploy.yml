@@ -25,7 +25,7 @@ jobs:
       - name: 📦 Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22.12.0'
           cache: 'npm'
           
       - name: 📋 Install dependencies
@@ -37,6 +37,13 @@ jobs:
       - name: 🏗️ Build application
         run: npm run build
         
+      - name: 📁 List build output
+        run: |
+          echo "Build output contents:"
+          ls -la dist/
+          echo "index.html contents:"
+          head -10 dist/index.html
+        
       - name: ⚙️ Setup Pages
         uses: actions/configure-pages@v4
         
@@ -44,6 +51,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: './dist'
+          retention-days: 1
 
   deploy:
     name: 🚀 Deploy
