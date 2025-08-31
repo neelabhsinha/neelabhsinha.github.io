@@ -1,21 +1,13 @@
-name: 🚀 Deploy to GitHub Pages
+name: 🚀 Deploy to GitHub Pages (gh-pages method)
 
 on:
   push:
     branches: ['main']
   workflow_dispatch:
 
-permissions:
-  contents: write
-  pages: write
-  id-token: write
-
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: 📥 Checkout repository
         uses: actions/checkout@v4
@@ -38,17 +30,9 @@ jobs:
           ls -la dist/
           echo "index.html exists:"
           test -f dist/index.html && echo "✅ index.html found" || echo "❌ index.html missing"
-          echo "index.html first few lines:"
-          head -5 dist/index.html
         
-      - name: ⚙️ Setup Pages
-        uses: actions/configure-pages@v4
-        
-      - name: 📤 Upload build artifacts
-        uses: actions/upload-pages-artifact@v3
+      - name: 🚀 Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          path: './dist'
-        
-      - name: 🌍 Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
