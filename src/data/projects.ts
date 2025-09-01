@@ -29,13 +29,13 @@ export const projects: Project[] = [
     links: [
       {
         type: "github",
-        url: "https://github.com/neelabhsinha/News-text-Classification-using-a-Weighted-RNN"
+        url: "https://github.com/neelabhsinha/News-text-Classification-Based-on-Weighted-LSTMs"
       }
     ]
   },
   {
     id: "driver_drowsiness_detection",
-    title: "Driver Drowsiness Detection",
+    title: "Drowsiness Detection in Drivers",
     summary: "Computer vision system for detecting driver drowsiness using eye tracking and facial landmarks.",
     date: "2020-03-15",
     tags: ["Computer Vision", "Deep Learning", "Drowsiness Detection"],
@@ -45,7 +45,11 @@ export const projects: Project[] = [
     links: [
       {
         type: "github",
-        url: "https://github.com/neelabhsinha/driver-drowsiness-detection"
+        url: "https://github.com/neelabhsinha/Drowsiness-Detection-in-Drivers-using-Deep-Learning"
+      },
+      {
+        type: "report",
+        url: "https://drive.google.com/file/d/1zcTU28a_O2DE30iiPGtNtj2h0zWm5ZhN/view?usp=share_link"
       }
     ]
   },
@@ -61,13 +65,13 @@ export const projects: Project[] = [
     links: [
       {
         type: "github",
-        url: "https://github.com/neelabhsinha/fifa-world-cup-prediction"
+        url: "https://github.com/neelabhsinha/fifa-world-cup-prediction-ml"
       }
     ]
   },
   {
     id: "knowledge_based_vqa",
-    title: "Knowledge-based Visual Question Answering",
+    title: "A Multi-Stage Vision-Language Framework for Knowledge-based VQA",
     summary: "Visual question answering system that incorporates external knowledge bases for comprehensive understanding.",
     date: "2021-01-15",
     tags: ["Computer Vision", "Natural Language Processing", "Question Answering"],
@@ -76,8 +80,8 @@ export const projects: Project[] = [
     featured: true,
     links: [
       {
-        type: "github",
-        url: "https://github.com/neelabhsinha/knowledge-based-vqa"
+        type: "report",
+        url: "https://drive.google.com/file/d/1vsLdUj0AOxPiLVyM2inVG0ktVM1bcnFB/view?usp=sharing"
       }
     ]
   },
@@ -93,13 +97,17 @@ export const projects: Project[] = [
     links: [
       {
         type: "github",
-        url: "https://github.com/neelabhsinha/leakage-detection-smart-water"
+        url: "https://github.com/neelabhsinha/Leakage-Detection-in-Smart-Water-Distribution-Systems"
+      },
+      {
+        type: "report",
+        url: "https://drive.google.com/file/d/1qEl-kCvHXTZ8zeuFi0a5oFtXbEg4_dkb/view?usp=sharing"
       }
     ]
   },
   {
     id: "peft_classification",
-    title: "Parameter-Efficient Fine-tuning for Text Classification",
+    title: "Exploring Parameter-Efficient Fine-tuning in LLMs",
     summary: "Implementation of parameter-efficient fine-tuning techniques for large language models in text classification tasks.",
     date: "2023-09-10",
     tags: ["Natural Language Processing", "Deep Learning", "Classification"],
@@ -109,13 +117,17 @@ export const projects: Project[] = [
     links: [
       {
         type: "github",
-        url: "https://github.com/neelabhsinha/peft-classification"
+        url: "https://github.com/snigdhav03/CS-7643-Deep-Learning"
+      },
+      {
+        type: "report",
+        url: "https://drive.google.com/file/d/1WTyz8BwX-6qywZ-pj_ZVxxJHA7lkqMY0/view?usp=sharing"
       }
     ]
   },
   {
     id: "rbfn_nn_control",
-    title: "RBFN Neural Network Control",
+    title: "RBFN Controller Design for non-linear Plants",
     summary: "Radial Basis Function Network for intelligent control systems design and implementation.",
     date: "2020-11-30",
     tags: ["Intelligent Control", "Controller Design"],
@@ -124,8 +136,8 @@ export const projects: Project[] = [
     featured: false,
     links: [
       {
-        type: "github",
-        url: "https://github.com/neelabhsinha/rbfn-neural-control"
+        type: "report",
+        url: "https://drive.google.com/file/d/1PXgjmmPS2wIvdBZJKlpJ_-K1X9XZsg-e/view?usp=sharing"
       }
     ]
   }

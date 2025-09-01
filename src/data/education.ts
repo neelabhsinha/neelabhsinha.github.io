@@ -7,8 +7,8 @@ export const education: Education[] = [
     institution: "Georgia Institute of Technology",
     location: "Atlanta, USA",
     startDate: "2023-08-23",
-    endDate: "2025-05-01",
-    gpa: "3.8/4.0",
+    endDate: "2025-05-02",
+    gpa: "3.81/4.0",
     courses: [
       "Graduate Algorithms",
       "Machine Learning", 
@@ -26,7 +26,7 @@ export const education: Education[] = [
     degree: "B.E., Electronics and Instrumentation Engineering; M.Sc. Physics (dual)",
     institution: "Birla Institute of Technology and Science, Pilani",
     location: "India",
-    startDate: "2016-01-01",
+    startDate: "2016-08-01",
     endDate: "2021-07-01",
     gpa: "8.44/10.0",
     courses: [

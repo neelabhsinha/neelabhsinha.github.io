@@ -16,17 +16,31 @@ export const experience: Experience[] = [
     companyLogo: "https://www.sansonetworks.com/images/products/img-nutanix.jpg"
   },
   {
-    id: "wellsfargo",
+    id: "wellsfargo-se",
     position: "Software Engineer",
     company: "Wells Fargo",
     location: "Hyderabad, India",
-    startDate: "2021-07-26",
+    startDate: "2022-08-01",
     endDate: "2023-07-26",
     description: [
       "Contributed to development of an enterprise business process management platform, streamlining 180+ banking operations",
       "Designed & developed a Kafka-based event messaging solution that sends 200000+ msgs/day of business data to warehouses",
       "Programmed and integrated APIs to securely insert, search and retrieve documents from enterprise content management platform",
       "Successfully led a data schema migration drive, collaborating with multiple business federations to plan and manage deliverables"
+    ],
+    companyUrl: "https://www.wellsfargo.com/about/",
+    companyLogo: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Wells_Fargo_Logo_%282020%29.svg/1200px-Wells_Fargo_Logo_%282020%29.svg.png"
+  },
+  {
+    id: "wellsfargo-pa",
+    position: "Program",
+    company: "Wells Fargo",
+    location: "Hyderabad, India",
+    startDate: "2021-07-26",
+    endDate: "2022-07-31",
+    description: [
+      "Developed a utility to dynamically resolve and assign tasks to enterprise IAM groups based on task requirements",
+      "Engineered a data redaction service to redact PII information from business workflows with an accuracy of 99.99%"
     ],
     companyUrl: "https://www.wellsfargo.com/about/",
     companyLogo: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Wells_Fargo_Logo_%282020%29.svg/1200px-Wells_Fargo_Logo_%282020%29.svg.png"
