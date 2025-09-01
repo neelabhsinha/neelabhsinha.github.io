@@ -33,7 +33,7 @@ export const experience: Experience[] = [
   },
   {
     id: "wellsfargo-pa",
-    position: "Program",
+    position: "Program Associate (Software)",
     company: "Wells Fargo",
     location: "Hyderabad, India",
     startDate: "2021-07-26",
