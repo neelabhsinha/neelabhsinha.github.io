@@ -7,6 +7,7 @@ export const skills: SkillCategory[] = [
     items: [
       { name: "Python", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
       { name: "Java", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
+      { name: "Go", icon: "https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_Aqua.svg"},
       { name: "C++", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" },
       { name: "JavaScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
       { name: "TypeScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" }
@@ -20,8 +21,7 @@ export const skills: SkillCategory[] = [
       { name: "TensorFlow", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" },
       { name: "Scikit-Learn", icon: "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" },
       { name: "Hugging Face", icon: "https://huggingface.co/front/assets/huggingface_logo-noborder.svg" },
-      { name: "LangChain", icon: "https://www.langchain.com/favicon.ico" },
-      { name: "vLLM", icon: "https://www.vllm.ai/favicon.ico" },
+      { name: "vLLM", icon: "https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/vllm-color.png" },
       { name: "OpenCV", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" }
     ]
   },
@@ -32,8 +32,7 @@ export const skills: SkillCategory[] = [
       { name: "FastAPI", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" },
       { name: "Spring Boot", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" },
       { name: "Apache Kafka", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg" },
-      { name: "Express.js", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" },
-      { name: "REST APIs", icon: "https://img.icons8.com/external-tal-revivo-duo-tal-revivo/100/external-rest-api-is-a-software-architectural-style-logo-duo-tal-revivo.png" }
+      { name: "Express.js", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" }
     ]
   },
   {

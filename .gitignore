@@ -1,3 +1,14 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Build outputs
+dist
+dist-ssr
+build
+*.local
+
 # Logs
 logs
 *.log
@@ -7,10 +18,24 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Environment variables
+.env
+.env*.local
+.env.production
+
+# MCP configuration (contains API keys)
+.mcp.json
+
+# Testing
+coverage
+*.lcov
+.nyc_output
+
+# Cache directories
+.cache
+.parcel-cache
+.vite
+.eslintcache
 
 # Editor directories and files
 .vscode/*
@@ -22,4 +47,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-.vite
+
+# OS files
+Thumbs.db
+*.tmp
+*.bak
+*~
