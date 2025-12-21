@@ -10,7 +10,8 @@ export const experience: Experience[] = [
     endDate: "Present",
     current: true,
     description: [
-      "Developing an AI code-review agent that scans and provides reviews for 200+ enterprise-level pull requests weekly"
+      "Developing Nutanix Enterprise AI (https://www.nutanix.com/products/nutanix-enterprise-ai), an on-prem AI management product enabling scalable, secure, and manageable operations of LLMs and generative AI workloads",
+      "Developing an AI code-review agent that scans and provides reviews for 200+ enterprise-level pull requests weekly",
     ],
     companyUrl: "https://www.nutanix.com/company",
     companyLogo: "https://www.sansonetworks.com/images/products/img-nutanix.jpg"

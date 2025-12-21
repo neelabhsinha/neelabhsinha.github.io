@@ -40,7 +40,7 @@ export const personal: PersonalInfo = {
     },
     {
       platform: "resume",
-      url: "https://drive.google.com/file/d/1DA2jXDInpLGGd10W_bJ391YVGgFOBfFx/view?usp=share_link",
+      url: "https://drive.google.com/file/d/1bqKHtI0MvJLEt9w4tE7Wt7-Nhrv1lemF/view?usp=share_link",
       icon: "description",
       label: "Resume"
     }
